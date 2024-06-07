@@ -1,0 +1,46 @@
+/* header bar */
+header {
+  margin-top: 10px;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* header column */
+.header-column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* title */
+.header-title {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* icons */
+.header-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-icon img {
+  width: 30px;
+}
+
+/* subscribe button */
+.header-subscribe {
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+}
